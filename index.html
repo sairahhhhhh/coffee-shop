@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&amp;display=swap" rel="stylesheet">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
+
+<style type="text/css" id="operaUserStyle"></style></head>
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+    
+
+
+    <!-- Navbar Start -->
+    <div class="navbar">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fa fa-bars"></i></label>
+
+            <div class="content">
+                <div class="logo"><img src="c:\Users\Admin\Desktop\coffee web\pics\logo3.jpg" alt=""></div>
+                    
+                <ul class="links">
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#order">Order</a></li>
+                </ul>
+                
+            </div>
+
+            <label for="show-search" class="search-icon"><i class="fa fa-search"></i></label>
+
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Search" required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </form>
+            <button class="loginbtn"><a href="login.html">Login</a></button>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+
+
+
+    <!-- Home Section Start -->
+    <section class="home">
+     
+        <div class="home-content aos-init aos-animate" data-aos="zoom-in-down">
+            
+            <h3> <span>Coffee</span> bcoz bad mornings deserve</h3>
+            <h3>a secound chance</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem earum, quae optio voluptate quam excepturi sapiente facilis? Corporis, facilis obcaecati!</p>
+            
+            <button id="btn"><a href="#order">ORDER NOW</a></button>
+
+        </div>
+
+
+        <div class="img aos-init aos-animate" data-aos="zoom-in-left"> 
+            <img src="c:\Users\Admin\Desktop\coffee web\pics\cup.png" alt="">
+        </div>
+
+    </section>
+    <!-- Home Section End -->
+
+
+
+    <!-- Top Card Start -->
+    <section class="top-card aos-init aos-animate" id="tp-card" data-aos="fade-up" data-aos-duration="1500">
+                         <h5>our service</h5>
+                                 <h1>What We Provide You</h1>
+        <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi cum
+            <br>,voluptatum numquam repudiandae at non unde corporis ullam ad nostrum mollitia corrupti assumenda neque harum officia distinctio </h6>         
+
+        <div class="row">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <h2>Supreme Coffee</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ducimus libero harum repellat provident sapiente amet consectetur aperiam eos magnam.</p>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <h2>High Quality</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ducimus libero harum repellat provident sapiente amet consectetur aperiam eos magnam.</p>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <h2>Extraordinary</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ducimus libero harum repellat provident sapiente amet consectetur aperiam eos magnam.</p>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <h2>Affordable Prices</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ducimus libero harum repellat provident sapiente amet consectetur aperiam eos magnam.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Top Card End -->
+
+
+
+    <!-- Menu Section Start -->
+    <section class="menu" id="menu">
+
+        <h1>Our <span>Menu</span></h1>
+        <br>
+        <div class="row aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
+
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="c:\Users\Admin\Desktop\coffee web\pics\cup1 - Copy.jpg" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Coffee <span>$20.5</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, odit.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="c:\Users\Admin\Desktop\coffee web\pics\kopi1.jpeg" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Coffee <span>$20.5</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, odit.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="c:\Users\Admin\Desktop\coffee web\pics\cup4 - Copy.avif" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Coffee <span>$20.5</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, odit.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="c:\Users\Admin\Desktop\coffee web\pics\cup5 - Copy.jpeg" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Coffee <span>$20.5</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, odit.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row aos-init" style="margin-top: 30px;" data-aos="fade-up" data-aos-duration="1500">
+
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="c:\Users\Admin\Desktop\coffee web\pics\black5.jpg" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Coffee <span>$20.5</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, odit.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="c:\Users\Admin\Desktop\coffee web\pics\black6.jpeg" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Coffee <span>$20.5</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, odit.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="c:\Users\Admin\Desktop\coffee web\pics\kopi10.jpeg" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Coffee <span>$20.5</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, odit.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="c:\Users\Admin\Desktop\coffee web\pics\kopi8.jpeg" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Coffee <span>$20.5</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, odit.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Menu Section End -->
+
+
+    <!-- Banner Start -->
+    
+    <div class="banner aos-init" data-aos="fade-up" data-aos-duration="1500">
+        <div class="banner-content">
+            <h3>50% OFF <br>Best Coffee Products</h3>
+            <button id="banner-btn">Explore Products</button>
+
+        </div>
+    </div>
+    <!-- Banner End -->
+
+
+    <!-- Products Section Start -->
+    <section class="menu" id="products">
+
+        <h1>Our Products</h1>
+        <br>
+        <div class="row aos-init" data-aos="fade-up" data-aos-duration="1500">
+
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="c:\Users\Admin\Desktop\coffee web\pics\pro1.webp" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Coffee <span>$20.5</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, odit.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="c:\Users\Admin\Desktop\coffee web\pics\pro3.webp" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Coffee <span>$20.5</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, odit.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="c:\Users\Admin\Desktop\coffee web\pics\pro4.webp" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Coffee <span>$20.5</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, odit.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="c:\Users\Admin\Desktop\coffee web\pics\pro6.jpeg" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Coffee <span>$20.5</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, odit.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Products Section End -->
+
+
+    <!-- About Section Start -->
+    <section class="about aos-init" id="about" data-aos="fade-up" data-aos-duration="1500">
+
+        <div class="row">
+            <div class="col-md-5 py-3 py-md-0">
+                <div class="card">
+                    <img src="c:\Users\Admin\Desktop\coffee web\pics\garden2.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-7 py-3 py-md-0">
+                <h5>About us</h5>
+                <h1>Coffee Shop</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis quam, enim harum obcaecati impedit molestias alias praesentium quae dolorum vel corporis? Eveniet inventore iusto voluptas, saepe, neque, perferendis porro non nam accusantium magnam cupiditate quae? Officiis fuga beatae sequi nostrum, dolore facere quod illum laborum repellendus culpa. Animi, doloribus alias!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis quam, enim harum obcaecati impedit molestias alias praesentium quae dolorum vel corporis? Eveniet inventore iusto voluptas, saepe, neque, perferendis porro non nam accusantium magnam cupiditate quae? Officiis fuga beatae sequi nostrum, dolore facere quod illum laborum repellendus culpa. Animi, doloribus alias!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequatur excepturi ut nostrum dolor laboriosam numquam minima corporis repellendus, repellat corrupti aliquid cumque perferendis error sequi obcaecati at dolores. Dolorem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati optio provident maiores praesentium saepe dolorem rem incidunt quaerat</p>
+                <button id="about-btn">Read More</button>
+
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- About Section End -->
+
+
+    <!-- Order Section Start -->
+    <section class="order aos-init" id="order" data-aos="fade-up" data-aos-duration="1500">
+
+        <div class="row">
+            <div class="col-md-6">
+
+                <input type="text" class="form-control" placeholder="Name" required="">
+                <input type="number" class="form-control" placeholder="Phone Number" required="">
+                <input type="text" class="form-control" placeholder="What You Want" required="">
+                <input type="number" class="form-control" placeholder="Quantity" required="">
+                <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+
+                <button>
+                    <span>Order Now</span>
+                </button>
+
+            </div>
+
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="order-info">
+                    <h3>Order Now</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam in minima, explicabo cumque quisquam porro ea quidem quae corporis? Dolores?</p>
+
+                    <div class="list">
+                        <li><a href="#">+92000000000000000</a></li>
+                        <li><a href="#">coffeeshop@gmail.com</a></li>
+                        <li><a href="#">AimenMadeeha@gmail.com</a></li>
+                    </div>
+                    <div class="social">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Order Section End -->
+
+
+   <!--review start-->
+    <section class="reviews aos-init" data-aos="fade-up" data-aos-duration="1500">
+        <h3>What's Our Customers Say</h3>
+        <div class="row">
+            <div class="col-md-4 py-3 py-md-0">
+
+                <div class="card">
+                    <p><img src="c:\Users\Admin\Desktop\coffee web\pics\ava4.jpg" alt=""> mr beast
+                    
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <hr>
+                    <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil dolorum iste cupiditate illo eveniet. Ex porro sint minus quae molestias beatae, eaque amet quibusdam architecto animi sit quia ad tenetur.</h6>
+
+                </div>
+
+
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+
+                <div class="card">
+                    <p><img src="c:\Users\Admin\Desktop\coffee web\pics\ava6.jpg" alt=""> mr beast
+                    
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <hr>
+                    <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam officiis impedit tempore doloribus magni quia, tempora quam aut inventore cum nihil maiores obcaecati fugiat doloremque laudantium, molestias labore quae illum!</h6>
+                </div>
+
+
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+
+                <div class="card">
+                    <p><img src="c:\Users\Admin\Desktop\coffee web\pics\ava2.webp" alt=""> mr beast
+                      
+                    
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <hr>
+                    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptates fugit ea animi quod et itaque vel doloribus perferendis molestiae officiis cumque praesentium, ex iusto dolore .</h6>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+     <!-- Footer Start -->
+     <footer>
+        <div class="content">
+            <div class="left box">
+
+                <div class="upper">
+                    <div class="topic">About us </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, eaque!
+                            <br>Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                </div>
+                <div class="lower">
+                    <div class="topic">Conatact us</div>
+                    <div class="phone">
+                        <a href="#"><i class="fas fa-phone-volume "></i>+912058574</a>
+                    </div>
+                    <div class="phone">
+                        <a href="#"><i class="fas fa-envelope"></i>coffeeshop@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="middle box">
+                <div class="topic">UseFull Links</div>
+                <div><a href="#home">Home</a></div>
+                <div><a href="#servise">service</a></div>
+                <div><a href="#menu">menu</a></div>
+                <div><a href="#products">products</a></div>
+                <div><a href="#about">About</a></div>
+                <div><a href="#contact">Conatact</a></div>
+            </div>
+            <div class="right box">
+                <div class="topic">ask us</div>
+                <form action="#">
+                    <input type="text" placeholder="Enter Email Address">
+                    <input type="submit" value="Send">
+                    <div class="social">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        
+    </footer>
+    <!-- Footer End -->
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
+</body></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
